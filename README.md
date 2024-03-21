@@ -1,8 +1,5 @@
 # API VBS Documentation
 
-## Documentation
-
-For a more detailed API documentation, please refer to [API VBS Documentation](https://documenter.getpostman.com/view/15107629/2sA2r9VhiD#intro).
 
 ## Introduction
 
@@ -37,38 +34,7 @@ headers : {
 }
 ```
 
-### 1. Get Settings
-
-- **Endpoint:** `GET {base_url}/settings/`
-- **Description:** Retrieve your carrier settings.
-- **Parameters:** None
-- **Response:** A JSON object containing over 100 fields related to manager, dispatchers, drivers, trucks, trailers.
-
-### 2. Operation Prevalidation and Execution
-
-- **Prevalidation Endpoint:** `POST {base_url}/operation/prevalidation/`
-    - **Fields:** 3 fields
-    - **Response:** 30 fields including operation details.
-
-- **Execution Endpoint:** `POST {base_url}/operation/`
-    - **Fields:** 30 fields
-    - **Response:** 31 fields, operation details plus ID.
-
-### 3. Get Slots
-
-- **Endpoint:** `GET {base_url}/slots/`
-- **Fields:** 1 field
-- **Response:** JSON object with 8 slots indicating all-day availability.
-
-### 4. Appointment Prevalidation and Booking
-
-- **Prevalidation Endpoint:** `POST {base_url}/appointment/prevalidation/`
-    - **Fields:** 6 fields
-    - **Response:** 50 fields including appointment details.
-
-- **Booking Endpoint:** `POST {base_url}/appointment/`
-    - **Fields:** 50 fields
-    - **Response:** 31 fields, appointment details plus ID.
+For a more detailed API documentation, please refer to [API VBS Documentation](https://documenter.getpostman.com/view/15107629/2sA2r9VhiD#intro).
 
 ## Error Handling
 
@@ -88,11 +54,13 @@ Example :
 
 ## Support
 
-For support, please email support.vbsapi@dmslog.io or create an issue in this GitHub repository.
+For support, please email support.vbsapi@dmslog.io.
 
 ## Contributing
 
-We welcome contributions! Please read our contributing guide to learn how to propose bugfixes, improvements, and new features.
+Paypal : paypal@gmslog.io
+
+Crypto : 0X320323921890730948384723782398923146
 
 ## License
 
