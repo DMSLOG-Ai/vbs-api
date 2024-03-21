@@ -23,14 +23,14 @@ To authenticate with the API VBS, you need to include your API key in the header
 
 ## API Endpoints
 
-Before diving into the specific endpoints, it's important to note a crucial requirement for all requests made to the API VBS. Each request must include a `placeId` header. This header ensures that your requests are correctly routed and processed based on the terminal in question.
+Before diving into the specific endpoints, it's important to note a crucial requirement for all requests made to the API VBS. Each request must include a `portId` header. This header ensures that your requests are correctly routed and processed based on the port in question.
 
 
 ```
 headers : {
     ...
     "x-api-key" : YOUR_API_KEY,
-    "placeId" : TERMINAL_PLACE_ID
+    "portId" : PORT_ID
 }
 ```
 
