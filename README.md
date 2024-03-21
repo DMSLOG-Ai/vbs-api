@@ -1,5 +1,9 @@
 # API VBS Documentation
 
+## Documentation
+
+For a more detailed API documentation, please refer to [API VBS Documentation](https://documenter.getpostman.com/view/15107629/2sA2r9VhiD#intro).
+
 ## Introduction
 
 API VBS provides a robust interface for transportation management systems (TMS) to interact seamlessly with vehicle booking systems. It facilitates operations like retrieving settings, prevalidating and executing operations and appointments, and getting available slots. This API is designed to streamline the workflow for carriers by offering detailed information on dispatchers, drivers, trucks, trailers, and appointment scheduling.
@@ -63,13 +67,10 @@ The API is accessed from the base URL: `http://example.com/api/vbs`. Replace `ht
 
 [Provide a few example requests and responses to demonstrate how to interact with the API. This could include sample curl commands or code snippets.]
 
-## Documentation
-
-For a more detailed API documentation, please refer to [API VBS Documentation](https://documenter.getpostman.com/view/15107629/2sA2r9VhiD#intro).
 
 ## Support
 
-For support, please email support@example.com or create an issue in this GitHub repository.
+For support, please email support.vbsapi@dmslog.io or create an issue in this GitHub repository.
 
 ## Contributing
 
