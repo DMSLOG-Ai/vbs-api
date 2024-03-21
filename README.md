@@ -42,7 +42,7 @@ All errors returned by the api contain a status code 400 and a json object with 
 Example : 
 ```
 {
-    "error": "Invalid placeId"
+    "error": "Invalid portId"
 }
 ```
 
