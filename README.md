@@ -46,7 +46,6 @@ Example :
 }
 ```
 
-
 ## Examples
 
 [Provide a few example requests and responses to demonstrate how to interact with the API. This could include sample curl commands or code snippets.]
@@ -58,9 +57,9 @@ For support, please email support.vbsapi@dmslog.io.
 
 ## Contributing
 
-Paypal : paypal@gmslog.io
+Paypal : paypal@dmslog.io
 
-Crypto : 0x0320323921890730948384723782398923146
+Crypto : 0x032032392ZERECLI3782398923146
 
 ## License
 
