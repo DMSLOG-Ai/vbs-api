@@ -11,7 +11,8 @@ Before you begin, ensure that you have a basic understanding of RESTful principl
 
 ### Workflow
 
-You can retreive the sequence diagram here : 
+You can retreive the sequence diagram here : https://github.com/dmslog-ai/vbs-api/blob/5f24577d080376fd8dbb377c15586bf447156ab4/doc/DMSLOG.Ai-VBS-API-UML-sequence-diagram-workflow-(25feb2024).jpg
+
 
 
 ### Base URL
