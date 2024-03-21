@@ -9,6 +9,11 @@ API VBS provides a robust interface for transportation management systems (TMS) 
 
 Before you begin, ensure that you have a basic understanding of RESTful principles and HTTP requests. To interact with API VBS, you'll need to have a TMS or a similar system capable of sending HTTP requests.
 
+### Workflow
+
+You can retreive the sequence diagram here : 
+
+
 ### Base URL
 
 The API is accessed from the base URL sent in mail.
