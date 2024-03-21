@@ -59,7 +59,7 @@ You can find some examples in the Examples folder.
 
 ## Support & Contributing
 
-For support, please email support.vbsapi@dmslog.io.
+For support or cntribition, please email support.vbsapi@dmslog.io.
 
 
 ## License
