@@ -48,7 +48,7 @@ Example :
 
 ## Examples
 
-[Provide a few example requests and responses to demonstrate how to interact with the API. This could include sample curl commands or code snippets.]
+You can find some examples in the Examples folder.
 
 
 ## Support
