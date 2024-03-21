@@ -39,44 +39,47 @@ headers : {
 
 ### 1. Get Settings
 
-- **Endpoint:** `GET /settings/`
+- **Endpoint:** `GET {base_url}/settings/`
 - **Description:** Retrieve your carrier settings.
 - **Parameters:** None
 - **Response:** A JSON object containing over 100 fields related to manager, dispatchers, drivers, trucks, trailers.
 
 ### 2. Operation Prevalidation and Execution
 
-- **Prevalidation Endpoint:** `POST /operation/prevalidation/`
+- **Prevalidation Endpoint:** `POST {base_url}/operation/prevalidation/`
     - **Fields:** 3 fields
     - **Response:** 30 fields including operation details.
 
-- **Execution Endpoint:** `POST /operation/`
+- **Execution Endpoint:** `POST {base_url}/operation/`
     - **Fields:** 30 fields
     - **Response:** 31 fields, operation details plus ID.
 
 ### 3. Get Slots
 
-- **Endpoint:** `GET /slots/`
+- **Endpoint:** `GET {base_url}/slots/`
 - **Fields:** 1 field
 - **Response:** JSON object with 8 slots indicating all-day availability.
 
 ### 4. Appointment Prevalidation and Booking
 
-- **Prevalidation Endpoint:** `POST /appointment/prevalidation/`
+- **Prevalidation Endpoint:** `POST {base_url}/appointment/prevalidation/`
     - **Fields:** 6 fields
     - **Response:** 50 fields including appointment details.
 
-- **Booking Endpoint:** `POST /appointment/`
+- **Booking Endpoint:** `POST {base_url}/appointment/`
     - **Fields:** 50 fields
     - **Response:** 31 fields, appointment details plus ID.
 
 ## Error Handling
 
-[Explain how errors are handled and returned by the API.]
+All errors returned by the api contain a status code 400 and a json object with the key `error`.
+Example : 
+```
+{
+    "error": "Invalid placeId"
+}
+```
 
-## Rate Limiting
-
-[If applicable, describe any rate limits that apply to API requests.]
 
 ## Examples
 
