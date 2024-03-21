@@ -51,16 +51,11 @@ Example :
 You can find some examples in the Examples folder.
 
 
-## Support
+## Support & Contributing
 
 For support, please email support.vbsapi@dmslog.io.
 
-## Contributing
-
-Paypal : paypal@dmslog.io
-
-Crypto : 0x032032392ZERECLI3782398923146
 
 ## License
 
-[Specify the license under which the API is provided.]
+Apache 2 licence.
