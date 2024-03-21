@@ -14,13 +14,26 @@ Before you begin, ensure that you have a basic understanding of RESTful principl
 
 ### Base URL
 
-The API is accessed from the base URL: `http://example.com/api/vbs`. Replace `http://example.com` with the actual domain where the API is hosted.
+The API is accessed from the base URL sent in mail.
 
 ### Authentication
 
-[Describe the authentication method. For example, API keys or OAuth 2.0]
+API VBS utilizes API keys to allow access to the API. We will send you your API key, this is unique to your account and serves as a method to authenticate your requests.
+You must include your API key in each request to our API endpoints.
+
+To authenticate with the API VBS, you need to include your API key in the header of each HTTP request. The API key should be included as the value of the `x-api-key` header field.
+
 
 ## API Endpoints
+
+Before diving into the specific endpoints, it's important to note a crucial requirement for all requests made to the API VBS. Each request must include a `placeId` header that specifies the terminal concerned by the request. This header ensures that your requests are correctly routed and processed based on the terminal in question.
+
+
+headers : {
+    ...
+    "x-api-key" : YOUR_API_KEY,
+    "placeId" : TERMINAL_PLACE_ID
+}
 
 ### 1. Get Settings
 
