@@ -60,7 +60,7 @@ For support, please email support.vbsapi@dmslog.io.
 
 Paypal : paypal@gmslog.io
 
-Crypto : 0X320323921890730948384723782398923146
+Crypto : 0x0320323921890730948384723782398923146
 
 ## License
 
