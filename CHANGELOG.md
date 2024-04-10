@@ -16,7 +16,7 @@ This version introduces a number of improvements and changes aimed at enhancing 
 
 #### Appointments
 - **Simplified Appointment Retrieval:** The API now returns a single appointment object directly for `GET /appointment/` requests, removing the previous requirement for a child array. Also can find 1 appointment by ID or Reference.
-- **Appointment Prevalidation Update:** Payload for `POST /appointment/prevalidation/` have changed, [check endpoint documentation.]([url](https://documenter.getpostman.com/view/15107629/2sA2r9VhiD#6a73ffca-4479-460f-9b53-5ea712f3a608))
+- **Appointment Prevalidation Update:** Payload for `POST /appointment/prevalidation/` have changed, [check endpoint documentation.](https://documenter.getpostman.com/view/15107629/2sA2r9VhiD#6a73ffca-4479-460f-9b53-5ea712f3a608)
 - **Appointment Creation Update:** Creating an appointment (`POST 1 appointment`) now requires only the IDs of the necessary fields (Same payload as `POST /appointment/prevalidation/`).
 
 
