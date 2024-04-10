@@ -9,7 +9,7 @@ This version introduces a number of improvements and changes aimed at enhancing 
 #### General Improvements
 - **Settings Response Update:** The `GET` request for settings no longer nests the settings within a "settings" key. The response is now directly the settings object.
 - **Consistency in Slots and Demo Data:** Similar to other changes, slots and demo data handling now directly return objects, eliminating child arrays for consistency and simplicity.
-- 
+
 #### Operations
 - **GET 1 Operation Improvement:** Retrieving a single operation (`GET /operation/{id}`) is now more straightforward, with the operation object being returned directly instead of within a child array.
 - **Operation Prevalidation Change:** The method for operation prevalidation has been changed from `GET` to `POST`. Ensure to update your requests to reflect this change. Parameters are same, they are just transfered to request body.
