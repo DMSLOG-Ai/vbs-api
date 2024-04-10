@@ -1,4 +1,4 @@
-# Changelog for API Version BVS
+# Changelog for API VBS
 
 ## Release Date: 2024-04-10
 
