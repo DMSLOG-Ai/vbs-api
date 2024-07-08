@@ -14,10 +14,15 @@ Before you begin, ensure that you have a basic understanding of RESTful principl
 You can retreive the sequence diagram here : https://github.com/dmslog-ai/vbs-api/blob/5f24577d080376fd8dbb377c15586bf447156ab4/doc/DMSLOG.Ai-VBS-API-UML-sequence-diagram-workflow-(25feb2024).jpg
 
 Data sequence workflow (VBS UX to "emulate" in the communication protocol between your API and VBS API):
+
 1- Prevalidate an operation > by sending 3 data and get the full payload OPE (= the 30 fields of a container movement)
+
 2- Create an operation (= a container): https://www.youtube.com/watch?v=6vCKBiWLow4 by sending OPE
+
 3- Get slots data of a day > get the payload SLOT
+
 4- Prevalidate an appointment > by sending SLOT + OPE > get the payload APPT
+
 5- Create an appointment : https://www.youtube.com/watch?v=xLgTV3SHB-E by sending APPT
 
 
